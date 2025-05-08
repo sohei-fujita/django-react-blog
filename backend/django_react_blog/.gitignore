@@ -1,0 +1,50 @@
+# === Python / Django ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Django Migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Secret files
+.env
+*.env
+
+# Media / uploads (if stored locally)
+media/
+uploads/
+
+# === React / Node.js ===
+node_modules/
+frontend/build/
+frontend/dist/
+frontend/.vite/
+
+# NPM / Yarn lock files (optional)
+package-lock.json
+yarn.lock
+
+# .DS_Store for macOS
+.DS_Store
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Test / Coverage ===
+htmlcov/
+coverage.*
+.pytest_cache/
+
+# === Docker (将来用) ===
+*.pid
+*.sock
